@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		436AAF7C1CE4C1F400157C5F /* SMPersonalCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 436AAF7B1CE4C1F400157C5F /* SMPersonalCenterVC.m */; };
+		436AAF851CE4D27A00157C5F /* intergral_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 436AAF801CE4D27A00157C5F /* intergral_icon.png */; };
+		436AAF861CE4D27A00157C5F /* my_dingdan.png in Resources */ = {isa = PBXBuildFile; fileRef = 436AAF811CE4D27A00157C5F /* my_dingdan.png */; };
+		436AAF871CE4D27A00157C5F /* my_walfare.png in Resources */ = {isa = PBXBuildFile; fileRef = 436AAF821CE4D27A00157C5F /* my_walfare.png */; };
+		436AAF881CE4D27A00157C5F /* send_introduction.png in Resources */ = {isa = PBXBuildFile; fileRef = 436AAF831CE4D27A00157C5F /* send_introduction.png */; };
+		436AAF891CE4D27A00157C5F /* setting_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 436AAF841CE4D27A00157C5F /* setting_icon.png */; };
 		5A15BDCA1C3AC4BF00ADDB11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A15BDC91C3AC4BF00ADDB11 /* main.m */; };
 		5A15BDCD1C3AC4BF00ADDB11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A15BDCC1C3AC4BF00ADDB11 /* AppDelegate.m */; };
 		5A15BDD81C3AC4C000ADDB11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A15BDD61C3AC4C000ADDB11 /* LaunchScreen.storyboard */; };
@@ -57,6 +63,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		436AAF7A1CE4C1F400157C5F /* SMPersonalCenterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPersonalCenterVC.h; sourceTree = "<group>"; };
+		436AAF7B1CE4C1F400157C5F /* SMPersonalCenterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPersonalCenterVC.m; sourceTree = "<group>"; };
+		436AAF801CE4D27A00157C5F /* intergral_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intergral_icon.png; sourceTree = "<group>"; };
+		436AAF811CE4D27A00157C5F /* my_dingdan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_dingdan.png; sourceTree = "<group>"; };
+		436AAF821CE4D27A00157C5F /* my_walfare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_walfare.png; sourceTree = "<group>"; };
+		436AAF831CE4D27A00157C5F /* send_introduction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send_introduction.png; sourceTree = "<group>"; };
+		436AAF841CE4D27A00157C5F /* setting_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting_icon.png; sourceTree = "<group>"; };
 		46928B481FB9F435ED2C1B24 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		5A15BDC51C3AC4BF00ADDB11 /* SunMoFruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunMoFruit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A15BDC91C3AC4BF00ADDB11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -139,6 +152,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		436AAF7E1CE4D21200157C5F /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				436AAF7F1CE4D27A00157C5F /* 48X48 */,
+			);
+			name = "图片";
+			sourceTree = "<group>";
+		};
+		436AAF7F1CE4D27A00157C5F /* 48X48 */ = {
+			isa = PBXGroup;
+			children = (
+				436AAF801CE4D27A00157C5F /* intergral_icon.png */,
+				436AAF811CE4D27A00157C5F /* my_dingdan.png */,
+				436AAF821CE4D27A00157C5F /* my_walfare.png */,
+				436AAF831CE4D27A00157C5F /* send_introduction.png */,
+				436AAF841CE4D27A00157C5F /* setting_icon.png */,
+			);
+			path = 48X48;
+			sourceTree = "<group>";
+		};
 		5A15BDBC1C3AC4BF00ADDB11 = {
 			isa = PBXGroup;
 			children = (
@@ -363,6 +396,8 @@
 		5A15BF3E1C3AD61800ADDB11 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				436AAF7A1CE4C1F400157C5F /* SMPersonalCenterVC.h */,
+				436AAF7B1CE4C1F400157C5F /* SMPersonalCenterVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -377,6 +412,7 @@
 		5A15BF401C3AD61800ADDB11 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				436AAF7E1CE4D21200157C5F /* 图片 */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -577,14 +613,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A15BF511C3CE57900ADDB11 /* Main.storyboard in Resources */,
+				436AAF871CE4D27A00157C5F /* my_walfare.png in Resources */,
 				5A15BE4A1C3ACCCA00ADDB11 /* Home.storyboard in Resources */,
 				5AB1C83B1CDC3E2C00503DA9 /* Assets.xcassets in Resources */,
+				436AAF891CE4D27A00157C5F /* setting_icon.png in Resources */,
 				5A4EDFDC1CB90A1D00A38618 /* VarityGoods.storyboard in Resources */,
 				5A15BDD81C3AC4C000ADDB11 /* LaunchScreen.storyboard in Resources */,
 				5A6AAE661CDE026B00E93E54 /* VarityGoodsCollectionCell.xib in Resources */,
 				5A15BF461C3AD62700ADDB11 /* PersonCenter.storyboard in Resources */,
+				436AAF861CE4D27A00157C5F /* my_dingdan.png in Resources */,
+				436AAF881CE4D27A00157C5F /* send_introduction.png in Resources */,
 				5A15BF481C3AD63800ADDB11 /* ShoppingCart.storyboard in Resources */,
 				5A3A05DD1C4E7AB000A04563 /* GDYXCollectionViewCell.xib in Resources */,
+				436AAF851CE4D27A00157C5F /* intergral_icon.png in Resources */,
 				5A15BF691C3D4B5200ADDB11 /* GRBHomeHeadPageView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -667,6 +708,7 @@
 				5A15BDCD1C3AC4BF00ADDB11 /* AppDelegate.m in Sources */,
 				5A15BF681C3D4B5200ADDB11 /* GRBHomeHeadPageView.m in Sources */,
 				5A2028FC1CD98D0900CECDE3 /* SMVarityGoodsVC.m in Sources */,
+				436AAF7C1CE4C1F400157C5F /* SMPersonalCenterVC.m in Sources */,
 				5A3A05991C4BCB9A00A04563 /* SMGDYouXuanCollectionView.m in Sources */,
 				5A6AAE641CDDFDB200E93E54 /* SMVarityGoodsModel.m in Sources */,
 				5A3A05E31C4FBDBF00A04563 /* SMYouXuanModel.m in Sources */,
@@ -810,7 +852,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SunMoFruit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hunter.SunMoFruit;
@@ -830,7 +872,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SunMoFruit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hunter.SunMoFruit;
@@ -846,6 +888,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SunMoFruitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shangmukeji.SunMoFruitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -858,6 +901,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SunMoFruitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shangmukeji.SunMoFruitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -869,6 +913,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = SunMoFruitUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shangmukeji.SunMoFruitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -881,6 +926,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = SunMoFruitUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shangmukeji.SunMoFruitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

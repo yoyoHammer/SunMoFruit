@@ -1,50 +1,74 @@
 //
-//  SMVarityGoodsVC.m
+//  SMPersonalCenterVC.m
 //  SunMoFruit
 //
-//  Created by 猎人 on 16/5/4.
+//  Created by 沛之 on 16/5/12.
 //  Copyright © 2016年 hunter. All rights reserved.
 //
 
-#import "SMVarityGoodsVC.h"
+#import "SMPersonalCenterVC.h"
+//屏幕相关
+#define KSCREENWIDTH ([UIScreen mainScreen].bounds.size.width)
 
-@interface SMVarityGoodsVC ()
+#define KSCREENHEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+#define KRATE KSCREENWIDTH / 375.0
+
+@interface SMPersonalCenterVC ()
+
 @end
 
-@implementation SMVarityGoodsVC
+@implementation SMPersonalCenterVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-//    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-//    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"VGTopViewCellId"];
     
+    // Uncomment the following line to preserve selection between presentations.
+    // self.clearsSelectionOnViewWillAppear = NO;
+    
+    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
 }
 
 #pragma mark - Table view data source
 
 
-
-
-#pragma mark - Table view delegate methods
-
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-        if (indexPath.row == 0) {
-            return 210;
-        } else if (indexPath.row == 1) {
-            return 50;
-        } else if (indexPath.row == 2) {
-            return 30;
-        }else {
-            return 800;
-        }
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.row == 0) {
+        return 180 * KRATE;
+    }
+    else if (indexPath.row == 1)
+    {
+        return 40 * KRATE;
+    }
+    else if (indexPath.row == 2)
+    {
+        return 385 * KRATE;
+    }
+    else
+    {
+        return 60 * KRATE;
+    }
 }
+
+/*
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    
+    // Configure the cell...
+    
+    return cell;
+}
+*/
+
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
