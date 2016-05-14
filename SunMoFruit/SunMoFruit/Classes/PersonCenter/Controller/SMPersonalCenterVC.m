@@ -22,19 +22,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    self.navigationController.navigationBar.hidden = YES;
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
 }
+
 
 #pragma mark - Table view data source
 
@@ -42,7 +41,7 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
 
-        return 640 * KRATE;
+    return 640 * KRATE;
 
 }
 
