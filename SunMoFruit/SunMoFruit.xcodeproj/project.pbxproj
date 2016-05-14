@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		434FCCAC1CE7235100C52CDD /* SMSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 434FCCAB1CE7235100C52CDD /* SMSettingVC.m */; };
 		436AAF7C1CE4C1F400157C5F /* SMPersonalCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 436AAF7B1CE4C1F400157C5F /* SMPersonalCenterVC.m */; };
 		436AAF851CE4D27A00157C5F /* intergral_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 436AAF801CE4D27A00157C5F /* intergral_icon.png */; };
 		436AAF861CE4D27A00157C5F /* my_dingdan.png in Resources */ = {isa = PBXBuildFile; fileRef = 436AAF811CE4D27A00157C5F /* my_dingdan.png */; };
@@ -63,6 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		434FCCAA1CE7235100C52CDD /* SMSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSettingVC.h; sourceTree = "<group>"; };
+		434FCCAB1CE7235100C52CDD /* SMSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSettingVC.m; sourceTree = "<group>"; };
 		436AAF7A1CE4C1F400157C5F /* SMPersonalCenterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPersonalCenterVC.h; sourceTree = "<group>"; };
 		436AAF7B1CE4C1F400157C5F /* SMPersonalCenterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPersonalCenterVC.m; sourceTree = "<group>"; };
 		436AAF801CE4D27A00157C5F /* intergral_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intergral_icon.png; sourceTree = "<group>"; };
@@ -398,6 +401,8 @@
 			children = (
 				436AAF7A1CE4C1F400157C5F /* SMPersonalCenterVC.h */,
 				436AAF7B1CE4C1F400157C5F /* SMPersonalCenterVC.m */,
+				434FCCAA1CE7235100C52CDD /* SMSettingVC.h */,
+				434FCCAB1CE7235100C52CDD /* SMSettingVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -702,6 +707,7 @@
 				5A15BE571C3ACF2000ADDB11 /* SMTabBarController.m in Sources */,
 				5A15BF4E1C3CDC6D00ADDB11 /* SMTabBar.m in Sources */,
 				5A3A05E01C4E7B9F00A04563 /* GDYXCollectionViewCell.m in Sources */,
+				434FCCAC1CE7235100C52CDD /* SMSettingVC.m in Sources */,
 				5A15BF551C3D358D00ADDB11 /* SMHomeVC.m in Sources */,
 				5A15BF581C3D36AB00ADDB11 /* SMNavController.m in Sources */,
 				5A15BF641C3D39C000ADDB11 /* UIImage+Ex.m in Sources */,
