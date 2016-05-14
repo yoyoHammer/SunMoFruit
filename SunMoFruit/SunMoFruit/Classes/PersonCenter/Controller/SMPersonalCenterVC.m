@@ -41,21 +41,9 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.row == 0) {
-        return 180 * KRATE;
-    }
-    else if (indexPath.row == 1)
-    {
-        return 40 * KRATE;
-    }
-    else if (indexPath.row == 2)
-    {
-        return 385 * KRATE;
-    }
-    else
-    {
-        return 60 * KRATE;
-    }
+
+        return 640 * KRATE;
+
 }
 
 /*
