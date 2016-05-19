@@ -91,7 +91,6 @@
 		5A15BE561C3ACF2000ADDB11 /* SMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTabBarController.m; sourceTree = "<group>"; };
 		5A15BF451C3AD62700ADDB11 /* PersonCenter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PersonCenter.storyboard; sourceTree = "<group>"; };
 		5A15BF471C3AD63800ADDB11 /* ShoppingCart.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ShoppingCart.storyboard; sourceTree = "<group>"; };
-		5A15BF491C3BC43B00ADDB11 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
 		5A15BF4C1C3CDC6D00ADDB11 /* SMTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTabBar.h; sourceTree = "<group>"; };
 		5A15BF4D1C3CDC6D00ADDB11 /* SMTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTabBar.m; sourceTree = "<group>"; };
 		5A15BF501C3CE57900ADDB11 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -178,7 +177,6 @@
 		5A15BDBC1C3AC4BF00ADDB11 = {
 			isa = PBXGroup;
 			children = (
-				5A15BF491C3BC43B00ADDB11 /* Contacts.framework */,
 				5A15BDC71C3AC4BF00ADDB11 /* SunMoFruit */,
 				5A15BDE11C3AC4C000ADDB11 /* SunMoFruitTests */,
 				5A15BDEC1C3AC4C000ADDB11 /* SunMoFruitUITests */,
