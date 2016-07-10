@@ -37,6 +37,7 @@
     //设置导航条不透明
     navB.translucent = NO;
     
+    NSLog(@"ceshi");
     return YES;
 }
 - (void)applicationWillResignActive:(UIApplication *)application {
